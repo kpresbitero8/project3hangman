@@ -1,0 +1,86 @@
+﻿body {
+    background: url(undertale.gif);
+    background-size: cover;
+}
+
+main {
+    max-width: 610px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h5 {
+    color: #ffff99;
+}
+
+.win {
+    color: #fff;
+    background-color: green;
+}
+
+.loss {
+    color: #fff;
+    background-color: red;
+}
+
+#word, #guesses {
+    text-align: center;
+    font-size: 24pt;
+    color: #ffFf99;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    #guesses {
+        font-size: 24pt;
+    }
+
+    .guess {
+        padding: 30px;
+        margin: 10px;
+    }
+}
+
+#guessBox {
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 18pt;
+    width: 200px;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #666;
+    background-color: rgb(225, 153, 153);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+    .button:hover {
+        background-color: #fA7af1;
+    }
+
+    .button:active {
+        background-color: #000000;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
